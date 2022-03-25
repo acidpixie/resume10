@@ -1,0 +1,7 @@
+#ProfilePicture {
+    display: flex;
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: 2rem;
