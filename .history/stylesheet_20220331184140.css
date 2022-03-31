@@ -57,13 +57,21 @@ li {
 
 .iconSkills {
   width: 40vh;
-  height: 40vh;
+  width: 40vh;
 }
 
-.slideBox {
-  width: 110vh;
-  height: 60vh;
+.marketingContainer {
+  display: flex;
+  justify-content: center;
+  width: 50vh;
+  height: 50vh;
 }
+
+.slideImg {
+  width: 90vh;
+  width: 90vh;
+}
+
 
 .form {
   margin: 0 200px 0 200px;
@@ -144,10 +152,6 @@ li {
   .jumbotron {
     background: #000;
   }
-  .slideBox {
-    width: 60vh;
-    height: 33vh;
-  }
 
 
 /* Tablet Styling */
@@ -160,10 +164,6 @@ li {
 }
 .jumbotron {
   background: url(images/img1.png) top center;
-}
-.slideBox {
-  width: 80vh;
-  height: 45vh;
 }
   
 
@@ -179,8 +179,4 @@ a {
 }
 .jumbotron {
   background: url(images/img1.png) top center;
-}
-.slideBox {
-  width: 110vh;
-  height: 60vh;
 }

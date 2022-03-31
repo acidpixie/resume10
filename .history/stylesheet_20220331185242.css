@@ -61,8 +61,8 @@ li {
 }
 
 .slideBox {
-  width: 110vh;
-  height: 60vh;
+  width: 80vh;
+  height: 80vh;
 }
 
 .form {
@@ -144,10 +144,6 @@ li {
   .jumbotron {
     background: #000;
   }
-  .slideBox {
-    width: 60vh;
-    height: 33vh;
-  }
 
 
 /* Tablet Styling */
@@ -160,10 +156,6 @@ li {
 }
 .jumbotron {
   background: url(images/img1.png) top center;
-}
-.slideBox {
-  width: 80vh;
-  height: 45vh;
 }
   
 
@@ -179,8 +171,4 @@ a {
 }
 .jumbotron {
   background: url(images/img1.png) top center;
-}
-.slideBox {
-  width: 110vh;
-  height: 60vh;
 }
