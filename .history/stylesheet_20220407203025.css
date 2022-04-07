@@ -90,10 +90,8 @@ li {
 .eModal {
   background: transparent;
   border: none;
-}
-
-.eModal:hover {
-  background: transparent;
+  display: flex;
+  justify-content: flex-start;
 }
 
 /*icon animation*/
@@ -112,7 +110,7 @@ li {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97);
     transform: translate3d( 0, 0, 0);
     perspective: 1000px;
-    filter: grayscale(70%);
+    filter: grayscale(70%)
   }
 
    footer {

@@ -85,16 +85,36 @@ li {
 
 
 /*email icon styling*/
+.emailIcon {
+  margin: 1px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  cursor: pointer;
+  align-content: space-between;
+}   
 
-
-.eModal {
-  background: transparent;
-  border: none;
+.emailIcons:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97);
+  transform: translate3d( 0, 0, 0);
+  perspective: 1000px;
+  filter: grayscale(70%)
 }
 
-.eModal:hover {
-  background: transparent;
-}
+@keyframes shake {
+  10%, 90% { 
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+
 
 /*icon animation*/
 * {box-sizing: border-box;}
@@ -112,10 +132,11 @@ li {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97);
     transform: translate3d( 0, 0, 0);
     perspective: 1000px;
-    filter: grayscale(70%);
+    filter: grayscale(70%)
   }
 
-   footer {
+
+  footer {
     background-color: #DC8032;
     display:flex;
     justify-content: flex-end;

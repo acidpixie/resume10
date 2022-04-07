@@ -92,10 +92,6 @@ li {
   border: none;
 }
 
-.eModal:hover {
-  background: transparent;
-}
-
 /*icon animation*/
 * {box-sizing: border-box;}
 
@@ -113,6 +109,7 @@ li {
     transform: translate3d( 0, 0, 0);
     perspective: 1000px;
     filter: grayscale(70%);
+    background-color: transparent;
   }
 
    footer {

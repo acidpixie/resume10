@@ -85,14 +85,16 @@ li {
 
 
 /*email icon styling*/
-
+.emailIcon {
+  margin: 1px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  cursor: pointer;
+  align-content: space-between;
+}   
 
 .eModal {
-  background: transparent;
-  border: none;
-}
-
-.eModal:hover {
   background: transparent;
 }
 
@@ -112,7 +114,7 @@ li {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97);
     transform: translate3d( 0, 0, 0);
     perspective: 1000px;
-    filter: grayscale(70%);
+    filter: grayscale(70%)
   }
 
    footer {
